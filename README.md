@@ -46,7 +46,7 @@ A comprehensive web application that combines citizen pothole reporting with emp
 3. **Configure environment variables (optional)**
    ```bash
    cp .env.example .env
-   # Edit .env and add your Gemini API key if you have one
+   # Edit .env and add your OPENAI API key if you have one
    ```
 
 4. **Start the development server**
