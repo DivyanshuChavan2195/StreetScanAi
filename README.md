@@ -1,4 +1,4 @@
-# StreetSacn
+# StreetScan
 
 A comprehensive web application that combines citizen pothole reporting with employee management capabilities. This project unifies both user-side pothole reporting and employee-side management into a single cohesive system.
 
@@ -22,7 +22,7 @@ A comprehensive web application that combines citizen pothole reporting with emp
 - **Vite** for build tooling
 - **TailwindCSS** for styling
 - **Leaflet** for interactive maps
-- **Google Gemini AI** for image analysis (optional)
+- **OPENAI AI** for image analysis (optional)
 - **LocalStorage** for data persistence (no database required)
 
 ## 📋 Prerequisites
@@ -93,12 +93,12 @@ The application comes with pre-configured demo accounts:
 
 ## 🤖 AI Features
 
-The application integrates with Google Gemini AI for:
+The application integrates with OPENAI AI for:
 - **Image Analysis**: Automatically detect if submitted photos contain potholes
 - **Severity Assessment**: Classify pothole severity (Low/Medium/High/Critical)
 - **Repair Plans**: Generate AI-powered repair recommendations
 
-**Note**: AI features work with a valid Gemini API key. Without an API key, the system uses intelligent mock responses that still provide a realistic experience.
+**Note**: AI features work with a valid OPENAI API key. Without an API key, the system uses intelligent mock responses that still provide a realistic experience.
 
 ## 💾 Data Storage
 
@@ -146,7 +146,7 @@ The built files will be in the `dist/` directory and can be deployed to any stat
 - Modify data store in `src/services/dataStore.ts`
 
 ### AI Integration
-- Configure Gemini settings in `src/services/geminiService.ts`
+- Configure OPENAI settings in `src/services/OPENAIService.ts`
 - Add your API key to enable real AI analysis
 
 ## 🔧 Development Scripts
@@ -183,7 +183,7 @@ This project is created for demonstration and educational purposes. Feel free to
 
 1. **Map not loading**: Check internet connection and ensure Leaflet CSS is loaded
 2. **Location not working**: Enable location services in your browser
-3. **AI analysis failing**: Check if Gemini API key is configured correctly
+3. **AI analysis failing**: Check if OPENAI API key is configured correctly
 4. **Build errors**: Ensure all dependencies are installed with `npm install`
 
 ### Browser Requirements:
