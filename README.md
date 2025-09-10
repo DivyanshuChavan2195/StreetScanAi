@@ -202,6 +202,11 @@ Potential improvements for production use:
 - Integration with municipal systems
 - Bulk import/export functionality
 
+## Demo
+
+### YouTube
+- [Watch the video on YouTube](https://www.youtube.com/watch?v=0J1Q_QwQfMM)
+
 ---
 
 Built with ❤️ for safer roads everywhere!
