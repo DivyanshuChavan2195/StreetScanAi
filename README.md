@@ -205,7 +205,7 @@ Potential improvements for production use:
 ## Demo
 
 ### YouTube
-- [Watch the video on YouTube](https://www.youtube.com/watch?v=0J1Q_QwQfMM)
+- [![YouTube]Watch the video on YouTube](https://www.youtube.com/watch?v=0J1Q_QwQfMM)
 
 ---
 
