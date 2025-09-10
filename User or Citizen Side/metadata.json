@@ -1,7 +1,0 @@
-{
-  "name": "StreetScan",
-  "description": "A web application to report, track, and analyze potholes using AI. Users can submit photos of potholes, which are analyzed for severity, and view all reports on an interactive map.",
-  "requestFramePermissions": [
-    "camera"
-  ]
-}
